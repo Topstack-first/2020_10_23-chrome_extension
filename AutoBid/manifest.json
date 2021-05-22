@@ -1,0 +1,21 @@
+{
+  "name": "Thor",
+  "description": "Change job ID in view active jobs page into a link",
+  "version": "3.1.0",
+
+  "manifest_version": 2,
+
+  "permissions": ["contextMenus"],
+
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+
+  "content_scripts": [{
+    "js": ["jquery.js", "content.js"],
+    "css": ["styles.css"],
+    "matches": ["https://www.glassdoor.com/admin*"]
+  }]
+}

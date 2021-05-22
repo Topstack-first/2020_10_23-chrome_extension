@@ -1,0 +1,7 @@
+When user click extension icon, there is a Donation button in popup menu.
+When user click the button, then a page or a dialog will be displayed, there are three option, $5, $10, $15 in the dialog, 
+user select it and click donate button, then transaction will go to my paypal.
+Dialog design should be beautiful, there should be a face photo in the dialog.
+here is dialog sample, https://www.formget.com/paypal-parallel-payments/
+
+
